@@ -3,7 +3,7 @@
 3. Ha a kérés path-ja az / a válaszban küldd vissza a public/index.html-t
 4. A /users oldalon megjelenítednő adatokat a services/user-data.service.js fájlban találod.
    Készíts egy modult, ami a következő adatokat biztosítja a szerver számára:
-   (Mindegyik metódus aszinkron módon működjön, egy error-first callbackben adja vissza az adatokat. )
+   (Mindegyik metódus aszinkron módon működjön, egy error-first callbackben adja vissza az adatokat.)
    a) Korosztályok - (ageGroups-ként expotálja a user-data.service modul)
    b) Országok - a users tömb alapján készíts egy listát azokkal az országokkal, 
         amiket a user adatok location.country propertyjében találsz.
